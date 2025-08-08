@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>method</key>
+	<string>debugging</string>
+	<key>teamID</key>
+	<string>7XM94942W4</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.test.test-XcodeCloud1</key>
+		<string>acb480ba-b534-4c20-b22f-ecd9d04a4cfd.mobileprovision</string>
+	</dict>
+</dict>
+</plist>
