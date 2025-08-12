@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B44704152E4B37DF00CD2A1E /* ci_post_clone.sh in Resources */ = {isa = PBXBuildFile; fileRef = B44704132E4B37DF00CD2A1E /* ci_post_clone.sh */; };
 		B4FE1FA72E45CCAA001AA7B6 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4FE1FA62E45CCAA001AA7B6 /* Property List.plist */; };
 		F3452546375ABB8FE6730AE8 /* Pods_test_XcodeCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB5C39DDAD9F2579DDF387C /* Pods_test_XcodeCloud.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B42897972E4301D900BF7B1B /* test_XcodeCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_XcodeCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44704132E4B37DF00CD2A1E /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 		B4FE1FA62E45CCAA001AA7B6 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		DAC54C883A671B57519B039D /* Pods-test_XcodeCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_XcodeCloud.debug.xcconfig"; path = "Target Support Files/Pods-test_XcodeCloud/Pods-test_XcodeCloud.debug.xcconfig"; sourceTree = "<group>"; };
 		EB1B2C27373EF01E7CFCE277 /* Pods-test_XcodeCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_XcodeCloud.release.xcconfig"; path = "Target Support Files/Pods-test_XcodeCloud/Pods-test_XcodeCloud.release.xcconfig"; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		B428978E2E4301D900BF7B1B = {
 			isa = PBXGroup;
 			children = (
+				B44704142E4B37DF00CD2A1E /* ci_scripts */,
 				B4FE1FA62E45CCAA001AA7B6 /* Property List.plist */,
 				B42897992E4301D900BF7B1B /* test_XcodeCloud */,
 				B42897982E4301D900BF7B1B /* Products */,
@@ -65,6 +68,14 @@
 				B42897972E4301D900BF7B1B /* test_XcodeCloud.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B44704142E4B37DF00CD2A1E /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				B44704132E4B37DF00CD2A1E /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
 			sourceTree = "<group>";
 		};
 		F84A4ED96711E407C88680F0 /* Frameworks */ = {
@@ -139,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44704152E4B37DF00CD2A1E /* ci_post_clone.sh in Resources */,
 				B4FE1FA72E45CCAA001AA7B6 /* Property List.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
