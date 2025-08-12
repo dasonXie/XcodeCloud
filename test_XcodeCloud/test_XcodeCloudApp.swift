@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import AFNetworking
+import Kingfisher
 
 @main
 struct test_XcodeCloudApp: App {
