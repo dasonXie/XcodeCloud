@@ -6,14 +6,13 @@
 //
 
 import SwiftUI
-import AFNetworking
-import Kingfisher
 
 @main
 struct test_XcodeCloudApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
         }
     }
 }
