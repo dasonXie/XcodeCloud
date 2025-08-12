@@ -19,39 +19,10 @@
 		FCB5C39DDAD9F2579DDF387C /* Pods_test_XcodeCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_XcodeCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B44704112E4B297800CD2A1E /* Exceptions for "ci_scripts" folder in "test_XcodeCloud" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				ci_post_clone.sh,
-			);
-			target = B42897962E4301D900BF7B1B /* test_XcodeCloud */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		B44704122E4B297800CD2A1E /* Exceptions for "ci_scripts" folder in "Compile Sources" phase from "test_XcodeCloud" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = B42897932E4301D900BF7B1B /* Sources */;
-			membershipExceptions = (
-				ci_post_clone.sh,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B42897992E4301D900BF7B1B /* test_XcodeCloud */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = test_XcodeCloud;
-			sourceTree = "<group>";
-		};
-		B447040D2E4B294100CD2A1E /* ci_scripts */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B44704112E4B297800CD2A1E /* Exceptions for "ci_scripts" folder in "test_XcodeCloud" target */,
-				B44704122E4B297800CD2A1E /* Exceptions for "ci_scripts" folder in "Compile Sources" phase from "test_XcodeCloud" target */,
-			);
-			path = ci_scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -80,7 +51,6 @@
 		B428978E2E4301D900BF7B1B = {
 			isa = PBXGroup;
 			children = (
-				B447040D2E4B294100CD2A1E /* ci_scripts */,
 				B4FE1FA62E45CCAA001AA7B6 /* Property List.plist */,
 				B42897992E4301D900BF7B1B /* test_XcodeCloud */,
 				B42897982E4301D900BF7B1B /* Products */,
@@ -124,7 +94,6 @@
 			);
 			fileSystemSynchronizedGroups = (
 				B42897992E4301D900BF7B1B /* test_XcodeCloud */,
-				B447040D2E4B294100CD2A1E /* ci_scripts */,
 			);
 			name = test_XcodeCloud;
 			productName = test_XcodeCloud;
